@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec_1 {
+    height: 100vh;
+    background: #00000067;
+    background-image: url(../Data/Images/home_bg.jpeg);
+    background-blend-mode: color;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header_1 img {
+    width: 90px;
+}
+
+.list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s;
+    padding-bottom: 4px;
+    position: relative;
+}
+
+.list-item a:hover {
+    border-bottom: 2px solid #E4B95B;
+}
+
+.first-div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    align-items: center;
+}
+
+.first-div h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.first-div h1 span {
+    color: #E4B95B;
+}
+
+.first-div p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.first-div button {
+    padding: 15px 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.first-div button:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec_2 , .sec_3{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_2 {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.header_2 h1 {
+    padding-top: 100px;
+    font-size: 2.6em;
+}
+
+.header_2 p {
+    font-weight: 100;
+    font-size: 1.4em;
+    padding-top: 10px;
+    color: #A1A3A1;
+}
+
+.flex {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_1 {
+    width: 50%;
+}
+
+.content_1 p {
+    line-height: 27px;
+    color: #A1A3A1;
+}
+
+.flex img {
+    width: 47%;
+}
+
+.p2 {
+    padding-bottom: 20px;
+}
+
+.content_1 button {
+    padding: 15px 35px;
+    background: #3B394A;
+    border: 1px solid #3B394A;
+    border-radius: 11px;
+    color: #fff;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.content_1 button:hover {
+    background: #fff;
+    border: 1px solid #3B394A;
+    color: #3B394A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec_3 {
+    background-image: url(../Data/Images/offer-background.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.card , .left_arrow , .right_arrow{
+    color: #fff;
+    
+}
+
+.sec_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_arrow , .left_arrow {
+    background: #00000057;
+    font-size: 3em;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.card h1 {
+    color: #E4B95B;
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+
+.card p {
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+.card img {
+    padding-top: 30px;
+}
+
+.card h4 {
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+.card h6 {
+    font-size: 1em;
+    color: #EBEBEC;
+    font-weight: 200;
+}
+
+.card span {
+    text-decoration: line-through;
+}
+
+.card h6 sup {
+    color: #E4B95B;
+    font-size: 1.2em;
+    text-decoration: double;
+    font-weight: 700;
+    padding-left: 4px;
+}
